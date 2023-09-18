@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iamthighs' Online Book Store</title>
+    <link rel=stylesheet href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <h1>Welcome to the Online Bookstore</h1>
+    
+    <div class="bookstore">
+        <h2>Available Books</h2>
+        <div class="book-list">
+            <!-- List of books with details -->
+        </div>
+    </div>
+
+    
+
+
+    <div class="shopping-cart">
+        <h2>Your Shopping Cart</h2>
+        <ul>
+            <!-- List of selected books in the shopping cart -->
+        </ul>
+
+        <h1>Select Payment Method</h1>
+        <div class="feedback">
+            <!-- Display payment status here -->
+        </div>
+        <div class="order-status">
+            <!-- Display payment status here -->
+        </div>
+        <form id="paymentForm">
+            <div>
+                <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+                <label for="creditCard">Credit Card</label>
+            </div>
+            <div>
+                <input type="radio" id="paypal" name="paymentMethod" value="paypal">
+                <label for="paypal">PayPal</label>
+            </div>
+            <div>
+                <input type="radio" id="bankTransfer" name="paymentMethod" value="bankTransfer">
+                <label for="bankTransfer">Bank Transfer</label>
+            </div>
+            <button onclick="getSelectedPaymentMethod()">Place Order</button>
+            
+        </form>
+
+        
+    </div>
+</body>
+</html>

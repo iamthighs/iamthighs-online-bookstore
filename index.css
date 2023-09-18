@@ -1,0 +1,109 @@
+/* Styles for the main header */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Styles for the main bookstore container */
+.bookstore {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Styles for the "Available Books" heading */
+.bookstore h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styles for the book list container */
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Styles for individual book items */
+.book {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(30% - 20px); /* Updated width to 30% */
+  margin-bottom: 20px;
+  box-sizing: border-box; /* To include padding and border in width calculation */
+}
+
+
+/* Styles for book titles */
+.book h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Styles for book authors */
+.book p.author {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Styles for book prices */
+.book p.price {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Styles for the shopping cart container */
+.shopping-cart {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Styles for the "Your Shopping Cart" heading */
+.shopping-cart h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styles for the shopping cart item list */
+.shopping-cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styles for individual shopping cart items */
+.shopping-cart li {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Styles for the "Place Order" button */
+.shopping-cart button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Styles for the "Place Order" button on hover */
+.shopping-cart button:hover {
+  background-color: #555;
+}
